@@ -1,0 +1,20 @@
+.parent {
+    display: flex;
+    height: 300px;
+    /* Or whatever */
+}
+
+.Auswahl {
+    background-color: yellow;
+    width: 30vw;
+    /* Or whatever */
+    padding-top: 3em;
+    padding-bottom: 3em;
+    /* Or whatever */
+    margin: auto;
+    /* Magic! */
+
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}

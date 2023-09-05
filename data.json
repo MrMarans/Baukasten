@@ -1,0 +1,42 @@
+{
+    "SmartMirror": {
+        "phase": [
+            "Impuls",
+            "Besuch",
+            "Angebot"
+        ],
+        "OptTechnologie": [
+            "RFID",
+            "Bilderkennung",
+            "3D Scanner",
+            "AugmentedReality"
+        ],
+        "NotwendigTechnologie": [
+            "Microcontroller",
+            "Bildschirm"
+        ],
+        "Mehrwert": [
+            "Informationsgewinnung",
+            "Hier anderer Text haben",
+            "Hier letzter Cooler text"
+        ],
+        "Interaktion": "möglich",
+        "Marktreife": 3,
+        "Kundenakzeptanz": 3,
+        "Anschaffungskosten": 3,
+        "Bedienbarkeit": 4,
+        "Innovationsgrad": 3,
+        "Example1": 1,
+        "Example2": 2,
+        "Funktionen": [
+            "Produktidentifikation und Empfehlung",
+            "Andere Sachen"
+        ],
+        "Potential": [
+            "Digitale Produktinformatione",
+            "Produktkonfiguration",
+            "Digitale Produktempfehlung"
+        ],
+        "Beschreibung": "Voll der der lange Text, der das ganze voll krass beschreibt, weil Smart Mirror halt voll der krasse Smart Shit ist, den jeder Händler braucht."
+    }
+}
