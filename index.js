@@ -24,8 +24,8 @@ function doSomethingWithJsonData() {
         console.log('Daten verfügbar:', jsonData);
 
         // Iteriere durch jedes Projekt und greife auf die "phase" zu
-        Object.keys(deinJSON).forEach(projekt => {
-            const phase = deinJSON[projekt].phase;
+        Object.keys(jsonData).forEach(projekt => {
+            const phase = jsonData[projekt].phase;
             console.log(`Projekt: ${projekt}`);
             console.log(`Phase: ${phase.join(', ')}`);
         });
