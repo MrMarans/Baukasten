@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Website</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
     <main>
@@ -14,10 +13,11 @@
         
         <div>Der Baukasten ermöglich verschiedene herangehensweisen.</div>
         <div>Wie möchten Sie starten?</div>
-        <div class="parent">
-        <div class="Auswahl">Anwendungen</div>
-        <div class="Auswahl">Technologien</div>
-        <div class="Auswahl">Funktionen & Potenzial</div>
+        <div id="AuswahlParent">
+        <div class="Auswahl" onclick="showProjects(null,null,null)">Anwendungen</div>
+        <div class="Auswahl" onclick="readTechnologies(null,null,null)">Technologien</div>
+        <div class="Auswahl" onclick="readPhase(null,null,null)">Phasen</div>
+        <div class="Auswahl" onclick="readPotential(null,null,null)">Funktionen & Potenzial</div>
     </div>
     </main>
 	<script src="index.js"></script>
